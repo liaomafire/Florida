@@ -21,7 +21,7 @@ jobs:
       - name: Set Frida Version
         id: setFridaVersion
         run: |
-          echo "FRIDA_VERSION=17.9.11" >> $GITHUB_OUTPUT
+          echo "FRIDA_VERSION=17.6.2" >> $GITHUB_OUTPUT
 
       - name: Split Repository Name
         id: split_name
